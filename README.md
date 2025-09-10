@@ -26,29 +26,36 @@ It simulates multiple failed login attempts, tracks suspicious IPs, and flags th
 
 ## 🚀 Getting Started
 
-##Step 1. Clone the Repository
+Step 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/brute-force-detector.git
 cd brute-force-detector
+```
 
 Step 2. Create a Virtual Environment
+```bash
 python3 -m venv venv
-
+```
 Activate (Linux/Mac):
+```bash
 source venv/bin/activate
-
+```
 Activate (Windows):
+```bash
 venv\Scripts\activate
-
+```
 Step 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 Step 4. Run the Flask App
+```bash
 python app.py
-
+```
 
 ➡ Open in browser: http://localhost:5000
 
 Step 5. Run the Detector
+```bash
 python detector.py
-
+```
