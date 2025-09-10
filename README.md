@@ -30,9 +30,9 @@ It simulates multiple failed login attempts, tracks suspicious IPs, and flags th
 ```bash
 git clone https://github.com/your-username/brute-force-detector.git
 cd brute-force-detector
-
+---
 ##Step 2. Create a Virtual Environment
-
+```bash
 python3 -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
